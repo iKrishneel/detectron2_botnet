@@ -1,0 +1,7 @@
+_BASE_: "base_rcnn.yaml"
+MODEL:
+  WEIGHTS: "detectron2://COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x/137849600/model_final_f10217.pkl"
+  MASK_ON: True
+  LOAD_PROPOSALS: False
+  RESNETS:
+    DEPTH: 50
