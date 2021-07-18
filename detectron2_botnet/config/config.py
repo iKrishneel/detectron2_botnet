@@ -19,4 +19,3 @@ _C.MODEL.BOTNET.USE_RELATIVE_POS_EMB = True
 def get_cfg():
 
     return _C.clone()
-
